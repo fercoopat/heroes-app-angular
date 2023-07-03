@@ -15,6 +15,7 @@ import {
   SearchHeroComponent,
 } from './pages';
 import { ImagePipe } from './pipes/image.pipe';
+import { ConfirmComponent } from './components/confirm/confirm.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ImagePipe } from './pipes/image.pipe';
     HeroesListComponent,
     HeroCardComponent,
     ImagePipe,
+    ConfirmComponent,
   ],
   imports: [
     CommonModule,
